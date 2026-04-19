@@ -1,0 +1,69 @@
+@font-face { font-family: "Hangyaboly"; src: url("Hangyaboly.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "AvanteLtNr"; src: url("AvanteLtNr.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+* { margin: 0; padding: 0; 
+box-sizing: border-box;
+overflow: hidden;
+}
+body { min-height: 100vh; font-family: "AvanteLtNr"; }
+#particles-js{ 
+height:100vh; 
+position: absolute; 
+z-index: -3;
+background-color: rgb(5, 71, 106);
+}    
+#zapoln{ color: rgb(193, 247, 170); }
+p{font-size: 26px;
+text-indent: 1.5rem;    
+}
+.container-fluid{ display: block;
+padding-top: .3rem;
+}
+.container-fluid .main-video{ 
+display: none;
+}
+.container-fluid .main-video video{
+width: 100%;
+}    
+.container-fluid .video-list .vid video{
+margin-right: 3px;
+border: 1px dashed #b90d0d;
+border-radius: 15px;
+width: 90px;
+}
+.container-fluid .video-list .vid:hover{
+color: #eee; cursor: pointer;
+}
+.container-fluid .video-list .vid:active{
+color: #2980b9;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+}
+img:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+.btn{color: white; margin-bottom: 10px;}
+.btn:hover{color: greenyellow;}
+.hide{display: none;}
+
+.mx-auto{
+position: absolute; 
+bottom: 0;
+align-items: center;
+justify-content: center;
+align-self: stretch;
+}
+.barents{
+color: #a1d3f7;
+font-size: 28px;
+}
+
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
